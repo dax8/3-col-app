@@ -1,0 +1,19 @@
+.layoutStyleMain {
+  display: grid;
+  grid-template-columns: 20% 50% 40%;
+  grid-gap: 20;
+  /* border: 3px solid black !important; */
+  /* gridTemplateColumns: "repeat(3, 1fr)",
+    gridGap: 20, */
+}
+.layoutStyleList {
+  border: 3px solid black;
+  border-right: none;
+}
+.layoutStyleTable {
+  border: 3px solid black;
+}
+.layoutStyleDetails{
+  border: 3px solid black;
+  border-left: none;
+}
